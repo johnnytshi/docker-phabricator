@@ -10,7 +10,7 @@ MAINTAINER Sébastien Santoro aka Dereckson <dereckson+nasqueron-docker@espace-w
 #
 
 RUN apt-get update && apt-get install -y \
-            mercurial subversion python-pygments openssh-client \
+            mercurial subversion python-pygments openssh-client php5-ldap \
             mysql-client \
             --no-install-recommends && rm -r /var/lib/apt/lists/*
 	
